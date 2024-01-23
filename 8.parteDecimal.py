@@ -1,3 +1,3 @@
 numero = float(input("Ingrese el numero real\n"))
-decimal = numero % 1
+decimal = abs(numero - int(numero))
 print(decimal)
